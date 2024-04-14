@@ -1,0 +1,29 @@
+/* components/Navbar.module.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+
+.navbar img {
+    width: 10%;
+}
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navLinks li {
+    margin-right: 1rem;
+  }
+  
+  .navLinks li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
